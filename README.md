@@ -10,12 +10,14 @@
     <br />
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="#usage">View Demo</a>
-    ·
-    <a href="#contact">Report Bug</a>
-    ·
-    <a href="#contact">Request Feature</a>
+
+  </p>
+
+  <p align="center">
+    <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
+    <a href="https://mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
+    <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+    <a href="https://next-auth.js.org/"><img src="https://img.shields.io/badge/NextAuth-9220D9?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next-Auth"></a>
   </p>
 </div>
 
@@ -26,7 +28,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#technologies">Technologies</a></li>
         <li><a href="#terminology">Terminology</a></li>
         <li><a href="#asset-categories">Asset Categories</a></li>
       </ul>
@@ -47,13 +49,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Gear Booking System is a comprehensive inventory and booking management application designed to streamline the process of borrowing and lending equipment. The system supports multiple user types with different authorization levels and provides a complete workflow from booking requests to checkout.
+The Gear Booking System is a comprehensive inventory and booking management application designed to streamline the process of borrowing and lending equipment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+### Technologies
 
-[![Next][Next.js]][Next-url][![MongoDB][MongoDB]][MongoDB-url][![Vercel][Vercel]][Vercel-url]
+- Authorization/Authentication: NextAuth
+- Frontend/Backend: NextJS
+- Database: MongoDB
+- Image storage: Deployed with website on Vercel
+- Web host: Vercel
+- Data sync: Power automate for name re-linking
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,8 +95,16 @@ The Gear Booking System is a comprehensive inventory and booking management appl
 This section of the document relates to the needs of the application and how they should work:
 
 - Inventory of items with the following fields:
-    - TODO
+    - Serial Number, image/s, model number, model, brand, 
 - Gear catalogue for people to browse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- REQUIRED SCHEMAS -->
+## Required Schemas
+- **Equipment**
+- **Individual Items**
+- **Activity Log**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

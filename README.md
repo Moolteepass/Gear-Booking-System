@@ -18,6 +18,7 @@
     <a href="https://mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
     <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
     <a href="https://next-auth.js.org/"><img src="https://img.shields.io/badge/NextAuth-9220D9?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next-Auth"></a>
+    <a href="https://cloudinary.com/"><img src="https://img.shields.io/badge/cloudinary-0000ff?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary"></a>
   </p>
 </div>
 
@@ -61,6 +62,7 @@ The Gear Booking System is a comprehensive inventory and booking management appl
 - Image storage: Deployed with website on Vercel
 - Web host: Vercel
 - Data sync: Power automate for name re-linking
+- Image hosting: Cloudinary
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
